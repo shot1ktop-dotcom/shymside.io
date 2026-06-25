@@ -1,6 +1,5 @@
 /**
  * SHYMSGANG - E-Commerce Core Script 
- * Логика корзины, фильтрации и интерактивных модальных окон
  */
 
 let cart = [];
@@ -41,7 +40,7 @@ const supportBtn = document.getElementById('supportBtn');
 const supportModal = document.getElementById('supportModal');
 const closeModal = document.getElementById('closeModal');
 
-// Оформление заказа (Checkout)
+// Оформление заказа
 const checkoutBtn = document.getElementById('checkoutBtn');
 const checkoutModal = document.getElementById('checkoutModal');
 const closeCheckoutModal = document.getElementById('closeCheckoutModal');
@@ -63,7 +62,7 @@ const loginForm = document.getElementById('loginForm');
 const registerForm = document.getElementById('registerForm');
 
 /* ==========================================================================
-   1. АНИМАЦИЯ ПОЯВЛЕНИЯ КОНТЕНТА ПРИ СКРОЛЛЕ (SCROLL REVEAL)
+   1. SCROLL REVEAL АНИМАЦИЯ
    ========================================================================== */
 function initScrollReveal() {
     const revealElements = document.querySelectorAll('.reveal');
@@ -287,7 +286,7 @@ function updateCartUI() {
 }
 
 /* ==========================================================================
-   6. ОФОРМЛЕНИЕ ЗАКАЗА (CHECKOUT LOGIC)
+   6. ОФОРМЛЕНИЕ ЗАКАЗА (CHECKOUT)
    ========================================================================= */
 checkoutBtn.addEventListener('click', () => {
     if (cart.length === 0) {
@@ -339,7 +338,7 @@ checkoutForm.addEventListener('submit', (e) => {
 });
 
 /* ==========================================================================
-   7. ОКНО АВТОРИЗАЦИИ / РЕГИСТРАЦИИ (AUTH SYSTEM)
+   7. АВТОРИЗАЦИЯ И РЕГИСТРАЦИЯ
    ========================================================================== */
 authToggleBtn.addEventListener('click', () => openModal(authModal));
 closeAuthModal.addEventListener('click', () => closeModalRoutine(authModal));
