@@ -2,12 +2,10 @@
    CUSTOM STYLES & ANIMATIONS FOR SHYMSGANG
    ========================================================================== */
 
-/* Глобальный плавный скроллинг страницы */
 html {
     scroll-behavior: smooth;
 }
 
-/* Стильный темный скроллбар */
 ::-webkit-scrollbar {
     width: 4px;
 }
@@ -22,9 +20,7 @@ html {
     background: #374151;
 }
 
-/* --- ОФОРМЛЕНИЕ КАРТОЧЕК ДЛЯ УСТРАНЕНИЯ ЭФФЕКТА ЛЕВИТАЦИИ --- */
 .product-card {
-    /* Добавляем мягкую глубокую тень для приземления на фон */
     box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.7);
     transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), 
                 transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), 
@@ -32,13 +28,11 @@ html {
                 border-color 0.3s ease;
 }
 
-/* Интерактивный контролируемый подъем при наведении вместо плоского зависания */
 .product-card:hover {
     transform: translateY(-8px) !important;
     box-shadow: 0 25px 50px -12px rgba(239, 68, 68, 0.15), 0 20px 40px -5px rgba(0, 0, 0, 0.9);
 }
 
-/* --- АНИМАЦИИ ДЛЯ КОРЗИНЫ --- */
 #cartSidebar {
     transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
     transform: translateX(100%);
@@ -47,7 +41,6 @@ html {
     transform: translateX(0);
 }
 
-/* --- ПЛАВНОСТЬ ДЛЯ ВСЕХ МОДАЛОК --- */
 .modal-backdrop {
     transition: opacity 0.3s ease-out, backdrop-filter 0.3s ease-out;
     opacity: 0;
@@ -70,14 +63,12 @@ html {
     opacity: 1;
 }
 
-/* --- SCROLL REVEAL АНИМАЦИЯ --- */
 .reveal {
     opacity: 0;
     transform: translateY(40px);
     will-change: transform, opacity;
 }
 
-/* Появление элементов */
 .reveal.active {
     opacity: 1;
     transform: translateY(0);
