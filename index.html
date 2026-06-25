@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHYMSGANG | South Kids Move Different</title>
+    <!-- Tailwind CSS v4 -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 <body class="bg-[#0b0f19] text-gray-100 font-sans antialiased selection:bg-white selection:text-black">
 
+    <!-- Навигация -->
     <nav class="bg-[#0b0f19]/90 border-b border-gray-800 sticky top-0 z-50 backdrop-blur-md">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
@@ -56,6 +58,7 @@
         </div>
     </nav>
 
+    <!-- Главный баннер (Hero) -->
     <header class="relative bg-black min-h-screen flex items-center justify-center overflow-hidden px-4 py-20">
         <div class="absolute inset-0 z-0">
             <img src="p11.png" alt="Shymkent Vibe" class="w-full h-full object-cover object-center opacity-40">
@@ -75,6 +78,7 @@
         </div>
     </header>
 
+    <!-- Каталог товаров -->
     <main id="catalog" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         
         <div class="reveal flex flex-col md:flex-row md:items-end justify-between mb-16 border-b border-gray-800 pb-6">
@@ -87,6 +91,7 @@
         
         <div id="productsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             
+            <!-- Товар 1 -->
             <div data-id="1" data-category="clothing" data-name="Футболка «TOO CREATIVE»" data-price="14500" data-img="p4.jpg" data-sizes="S,M,L,XL" data-colors="White" class="reveal product-card group bg-[#111726] border border-gray-900/60 overflow-hidden rounded-xl">
                 <div class="bg-[#182032] overflow-hidden relative aspect-[4/5]">
                     <img src="p4.jpg" alt="Футболка TOO CREATIVE" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500">
@@ -105,6 +110,7 @@
                 </div>
             </div>
 
+            <!-- Товар 2 -->
             <div data-id="2" data-category="clothing" data-name="Худи «SHYM OVERSIZE»" data-price="24500" data-img="p8.jpg" data-sizes="S,M,L,XL" data-colors="Black" class="reveal product-card group bg-[#111726] border border-gray-900/60 overflow-hidden rounded-xl">
                 <div class="bg-[#182032] overflow-hidden relative aspect-[4/5]">
                     <img src="p8.jpg" alt="Худи SHYM OVERSIZE" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500">
@@ -123,6 +129,7 @@
                 </div>
             </div>
 
+            <!-- Товар 3 -->
             <div data-id="3" data-category="clothing" data-name="Зип-худи «GANG EMBROIDERY»" data-price="27900" data-img="p9.jpg" data-sizes="M,L,XL" data-colors="Dark Gray" class="reveal product-card group bg-[#111726] border border-gray-900/60 overflow-hidden rounded-xl">
                 <div class="bg-[#182032] overflow-hidden relative aspect-[4/5]">
                     <img src="p9.jpg" alt="Зип-худи GANG EMBROIDERY" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500">
@@ -141,6 +148,7 @@
                 </div>
             </div>
 
+            <!-- Товар 4 -->
             <div data-id="4" data-category="clothing" data-name="Свитшот «SOUTH DISTRICT»" data-price="21000" data-img="p5.jpg" data-sizes="S,M,L,XL" data-colors="White,Black" class="reveal product-card group bg-[#111726] border border-gray-900/60 overflow-hidden rounded-xl">
                 <div class="bg-[#182032] overflow-hidden relative aspect-[4/5]">
                     <img src="p5.jpg" alt="Свитшот SOUTH DISTRICT" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500">
@@ -159,6 +167,7 @@
                 </div>
             </div>
 
+            <!-- Товар 5 -->
             <div data-id="5" data-category="clothing" data-name="Футболка «SHYM NEVER SLEEPS»" data-price="14500" data-img="p6.jpg" data-sizes="S,M,L,XL" data-colors="White" class="reveal product-card group bg-[#111726] border border-gray-900/60 overflow-hidden rounded-xl">
                 <div class="bg-[#182032] overflow-hidden relative aspect-[4/5]">
                     <img src="p6.jpg" alt="Футболка SHYM NEVER SLEEPS" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500">
@@ -177,6 +186,7 @@
                 </div>
             </div>
 
+            <!-- Товар 6 -->
             <div data-id="6" data-category="clothing" data-name="Футболка «IF YOU KNOW SHYM»" data-price="14500" data-img="p7.jpg" data-sizes="S,M,L,XL" data-colors="White" class="reveal product-card group bg-[#111726] border border-gray-900/60 overflow-hidden rounded-xl">
                 <div class="bg-[#182032] overflow-hidden relative aspect-[4/5]">
                     <img src="p7.jpg" alt="Футболка IF YOU KNOW SHYM" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500">
@@ -195,6 +205,7 @@
                 </div>
             </div>
 
+            <!-- Товар 7 -->
             <div data-id="7" data-category="clothing" data-name="Джерси «BORN IN SHYM 17»" data-price="18900" data-img="p9.jpg" data-sizes="S,M,L,XL" data-colors="Light Gray" class="reveal product-card group bg-[#111726] border border-gray-900/60 overflow-hidden rounded-xl">
                 <div class="bg-[#182032] overflow-hidden relative aspect-[4/5]">
                     <img src="p9.jpg" alt="Джерси BORN IN SHYM" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500">
@@ -213,6 +224,7 @@
                 </div>
             </div>
 
+            <!-- Товар 8 -->
             <div data-id="8" data-category="clothing" data-name="Лонгслив «IF YOU KNOW 17»" data-price="16500" data-img="p10.jpg" data-sizes="S,M,L,XL" data-colors="White" class="reveal product-card group bg-[#111726] border border-gray-900/60 overflow-hidden rounded-xl">
                 <div class="bg-[#182032] overflow-hidden relative aspect-[4/5]">
                     <img src="p10.jpg" alt="Лонгслив IF YOU KNOW 17" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500">
@@ -231,6 +243,7 @@
                 </div>
             </div>
 
+            <!-- Товар 9 -->
             <div data-id="9" data-category="accessories" data-name="Кепка «SHYM VINTAGE»" data-price="8900" data-img="p4.jpg" data-sizes="ONE SIZE" data-colors="Black,Navy" class="reveal product-card group bg-[#111726] border border-gray-900/60 overflow-hidden rounded-xl">
                 <div class="bg-[#182032] overflow-hidden relative aspect-[4/5]">
                     <img src="p4.jpg" alt="Кепка SHYM VINTAGE" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500">
@@ -249,6 +262,7 @@
                 </div>
             </div>
 
+            <!-- Товар 10 -->
             <div data-id="10" data-category="accessories" data-name="Носки «SOUTH SKATE» (3 пары)" data-price="4500" data-img="p5.jpg" data-sizes="ONE SIZE" data-colors="White,Black" class="reveal product-card group bg-[#111726] border border-gray-900/60 overflow-hidden rounded-xl">
                 <div class="bg-[#182032] overflow-hidden relative aspect-[4/5]">
                     <img src="p5.jpg" alt="Носки SOUTH SKATE" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500">
@@ -270,6 +284,7 @@
         </div>
     </main>
 
+    <!-- О Бренде -->
     <section id="about" class="reveal bg-[#060910] py-24 border-t border-b border-gray-900 text-center">
         <div class="max-w-4xl mx-auto px-4">
             <h2 class="text-3xl font-black uppercase tracking-widest mb-6">SHYMSGANG IS NOT JUST A BRAND.</h2>
@@ -279,7 +294,9 @@
         </div>
     </section>
 
-    <div id="productOptionsModal" class="modal-backdrop fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
+    <!-- ИСПРАВЛЕНО: Добавлен стиль style="display: none;" чтобы окно не всплывало само -->
+    <!-- Модалка: Выбор параметров -->
+    <div id="productOptionsModal" class="modal-backdrop fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4" style="display: none;">
         <div class="modal-content bg-[#111726] border border-gray-800 max-w-2xl w-full grid grid-cols-1 md:grid-cols-2 relative overflow-hidden shadow-2xl rounded-2xl">
             <button id="closeOptionsModal" class="absolute top-4 right-4 text-gray-400 hover:text-white text-2xl focus:outline-none z-10 cursor-pointer">&times;</button>
             <div class="bg-[#182032] aspect-[4/5] md:h-full">
@@ -303,6 +320,7 @@
         </div>
     </div>
 
+    <!-- Боковая корзина (Sidebar) -->
     <div id="cartSidebarWrapper" class="fixed inset-0 z-50 pointer-events-none hidden">
         <div id="cartSidebarOverlay" class="absolute inset-0 bg-black/60 backdrop-blur-sm pointer-events-auto transition-opacity duration-300 opacity-0"></div>
         <div id="cartSidebar" class="absolute inset-y-0 right-0 w-full max-w-md bg-[#0d1321] border-l border-gray-800 flex flex-col shadow-2xl pointer-events-auto fixed">
@@ -331,6 +349,7 @@
         </div>
     </div>
 
+    <!-- Оформление заказа (Checkout) -->
     <div id="checkoutModal" class="modal-backdrop fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4" style="display: none;">
         <div class="modal-content bg-[#111726] border border-gray-800 max-w-lg w-full relative overflow-hidden shadow-2xl flex flex-col max-h-[90vh] rounded-2xl">
             <button id="closeCheckoutModal" class="absolute top-4 right-4 text-gray-400 hover:text-white text-2xl focus:outline-none z-10 cursor-pointer">&times;</button>
@@ -377,6 +396,7 @@
         </div>
     </div>
 
+    <!-- Авторизация -->
     <div id="authModal" class="modal-backdrop fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4" style="display: none;">
         <div class="modal-content bg-[#111726] border border-gray-800 max-w-md w-full relative overflow-hidden shadow-2xl flex flex-col rounded-2xl">
             <button id="closeAuthModal" class="absolute top-4 right-4 text-gray-400 hover:text-white text-2xl focus:outline-none z-10 cursor-pointer">&times;</button>
@@ -422,6 +442,7 @@
         </div>
     </div>
 
+    <!-- Поддержка -->
     <div id="supportModal" class="modal-backdrop fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4" style="display: none;">
         <div class="modal-content bg-[#111726] border border-gray-800 p-8 max-w-md w-full relative shadow-2xl rounded-2xl">
             <button id="closeModal" class="absolute top-4 right-4 text-gray-400 hover:text-white text-xl focus:outline-none cursor-pointer">&times;</button>
